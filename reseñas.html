@@ -17,7 +17,7 @@
             min-height: 100vh;
         }
         .container {
-            max-width: 400px;
+            max-width: 450px;
             width: 100%;
             background-color: #ffffff;
             padding: 30px;
@@ -27,7 +27,29 @@
         }
         h1 {
             color: #333;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
+        }
+        .description {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 20px;
+            line-height: 1.5;
+            text-align: left;
+        }
+        .description strong {
+            display: inline;
+            font-weight: bold;
+        }
+        .description-list {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 20px;
+            line-height: 1.5;
+            text-align: left;
+            padding-left: 20px;
+        }
+        .description-list li {
+            margin-bottom: 10px;
         }
         .maps-button {
             display: block;
@@ -74,7 +96,13 @@
 <body>
     <div class="container">
         <img src="https://github.com/debs1991/QR-whatsapp-2-locales/blob/main/logoBP.png?raw=true" alt="Logo de la empresa" class="logo">
-        <h1>Deja tu opinión o contáctanos</h1>
+        <h1>¡Participa en nuestro sorteo mensual!</h1>
+        <p class="description">Para tener la oportunidad de ganar una <strong>Muzza a la piedra GRANDE</strong>, sigue estos sencillos pasos:</p>
+        <ol class="description-list">
+            <li>Haz clic en el botón de abajo para dejarnos tu opinión en Google Maps. ¡Tu reseña nos ayuda a mejorar y te da un lugar en el sorteo!</li>
+            <li>Envíanos un mensaje por WhatsApp para confirmar tu participación. ¡Recuerda agendarnos! Así podrás seguir el sorteo a través de nuestras historias.</li>
+            <li>¡Listo! El sorteo se realizará el último día de cada mes. ¡Mucha suerte!</li>
+        </ol>
         <a class="maps-button" href="https://g.page/r/CVLRCojrh7lLEAE/review" target="_blank">Dejar un comentario en Maps</a>
         <a class="whatsapp-button" href="https://wa.me/5491166799489?text=Hola!%20quiero%20participar%20en%20el%20sorteo%20mensual,%20ya%20comenté%20en%20maps,%20mi%20nombre%20es%20" target="_blank">Hablar por WhatsApp</a>
     </div>
